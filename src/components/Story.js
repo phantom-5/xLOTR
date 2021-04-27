@@ -10,7 +10,7 @@ console.log = function() {} //disable all console.log
 
 const Story = (props) => {
 
-    const [audio] = useState( typeof Audio !== "undefined" && new Audio("https://xlotr.herokuapp.com//stream/audio")); 
+    const [audio] = useState( typeof Audio !== "undefined" && new Audio("https://xlotr.herokuapp.com/stream/audio")); 
     const [isLoading,setIsLoading]  = useState(true)
     var userHistoryCount = 0
     const cookie = new Cookies()
@@ -39,7 +39,7 @@ const Story = (props) => {
 
         console.log('lotr')
 
-        const response = await fetch('https://xlotr.herokuapp.com//book',{
+        const response = await fetch('https://xlotr.herokuapp.com/book',{
             method:'GET',
             mode:'cors',
             headers: {

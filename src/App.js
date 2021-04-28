@@ -79,7 +79,7 @@ function App() {
               particles: {
               shape: {
                 type: 'images',
-                image: [{src: 'test.png'},{src: 'test2.png'},{src: 'test3.png'}, {src: 'test4.png'},{src: 'test3.png'}]
+                image: [{src: 'test.jpg'},{src: 'test2.png'},{src: 'test3.png'}, {src: 'test4.png'},{src: 'test3.png'}]
               },
               line_linked: {
                   enable: false
